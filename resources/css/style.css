@@ -52,6 +52,11 @@ header .flex {
     }
 }
 
+@media only screen and (max-width: 470px) {
+   
+    }
+}
+
 .flex { 
     display: flex;
 }
@@ -68,6 +73,16 @@ nav {
 @media only screen and (max-width: 1024px) {
     nav.container {
         max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .menu li {
+        display: none;
+    }
+    .container span {
+        display: none;
+    }
     }
 }
 
@@ -114,6 +129,24 @@ ul li {
     header {
         height: 396px;
     }
+}
+
+@media only screen and (max-width:470px) {
+    header {
+        width: 100%;
+        height: 17rem;
+        background-position: 20%;
+    }
+
+    .main-banner {
+        width: 100%;
+        margin-top: 6.5rem;
+        margin-bottom: 4rem;
+        background-color: blue;
+        height: 2.5rem;
+      
+    }
+
 }
 
 /* Supporting Section */
